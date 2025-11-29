@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+}
+
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#banner .background-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#banner .container {
+    height: 100%;
+}
+
+#banner h1 {
+    font-size: 5em;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    #banner {
+        height: 400px;
+    }
+    #banner h1 {
+        font-size: 2em;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-type {
+    max-width: 55%;
+}
+
+.bg-type {
+    background-color: #fefbf9;
+}
+
+header {
+    display: block;
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+}
+
+header.bg-body-tertiary, div.bg-body-tertiary {
+    background-color: #fff !important;
+}
+
+header.bg-body-tertiary {
+    box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.75);
+}
+
+header .navbar-nav {
+    text-align: center;
+}
+
+header .nav-link {
+    color: #575757 !important;
+}
+
+header .nav-link.active {
+    color: #01004D !important;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    header .navbar-brand img {
+        width: 30px;
+        height: auto;
+    }
+}
+
+strong {
+    color: #01004D !important;
+}
+
+a {
+    color: #01004D !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #01004D;
+}
+
+#hanging-icons .text-body-emphasis {
+    color: #01004D !important;
+}
+
+#hanging-icons .icon-square img {
+    position: relative;
+    top: 8px;
+}
+
+@media screen and (max-width: 768px){
+    #hanging-icons .icon-square img {
+    position: relative;
+    top: 4px;
+    }
+}
+
+footer .nav-link {
+    color: #575757 !important;
+}
+
+footer .nav-link.active {
+    color: #01004D !important;
+}
+
+footer .text-body-secondary {
+    color: #575757 !important;
+}
+
+@media screen and (max-width: 768px){
+    footer ul.nav li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#solutions .card-title{
+    color: #01004D;
+}
+
+#solutions .btn-primary{
+    background-color: #FC903F;
+    color: #01004D !important;
+    border: none;
+}
+
+#solutions .card-body{
+    border: none;
+}
+
+#accordionFlushExample .accordion-button:not(.collapsed){
+    background-color: #4E9659;
+    color: #fff;
+    
+}
+
+.btn {
+    background-color: #FC903F !important;
+    color: #01004D !important;
+    border: none;
+}
+
+.btn:hover, .btn:active {
+    background-color: #FC903F !important;
+    color: #01004D !important;
+    border: none;
+}
